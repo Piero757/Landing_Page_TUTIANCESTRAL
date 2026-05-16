@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "title": "Experiencia Inolvidable entre Lujo y Naturaleza",
+    "subtitle": "Descubre el equilibrio perfecto entre la comodidad de nuestro hotel y la exquisitez de nuestro restaurante.",
+    "cta": "Reserva Ahora",
+    "image": "/images/hero-bg.png"
+  },
+  "about": {
+    "title": "Quiénes Somos",
+    "content": "Somos un destino turístico comprometido con la excelencia. Con años de experiencia en hospitalidad, ofrecemos un refugio de paz y sabor para quienes buscan lo mejor del turismo local.",
+    "image": "/images/about.png"
+  },
+  "services": [
+    {
+      "id": 1,
+      "title": "Hospedaje de Lujo",
+      "description": "Habitaciones diseñadas para el descanso total con vistas espectaculares.",
+      "icon": "Bed"
+    },
+    {
+      "id": 2,
+      "title": "Gastronomía Local",
+      "description": "Platillos preparados con ingredientes frescos de la región por chefs expertos.",
+      "icon": "Utensils"
+    },
+    {
+      "id": 3,
+      "title": "Tours Guiados",
+      "description": "Explora los rincones más bellos de la zona con nuestros guías certificados.",
+      "icon": "Map"
+    }
+  ],
+  "gallery": [
+    { "id": 1, "url": "/images/gallery-1.png", "alt": "Restaurante vista nocturna" },
+    { "id": 2, "url": "/images/gallery-2.png", "alt": "Habitación Suite" },
+    { "id": 3, "url": "/images/gallery-1.png", "alt": "Platillo especial" },
+    { "id": 4, "url": "/images/gallery-2.png", "alt": "Piscina" }
+  ],
+  "clients": [
+    { "id": 1, "name": "Familia Rodriguez", "comment": "Una estancia maravillosa, la comida fue lo mejor.", "rating": 5 },
+    { "id": 2, "name": "Carlos M.", "comment": "Excelente atención y ubicación privilegiada.", "rating": 5 }
+  ],
+  "contact": {
+    "email": "contacto@turismolujo.com",
+    "phone": "+51 987 654 321",
+    "address": "Av. Principal 123, Valle Sagrado, Perú"
+  }
+}
