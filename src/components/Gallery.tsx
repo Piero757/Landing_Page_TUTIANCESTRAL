@@ -14,11 +14,11 @@ export default function Gallery() {
           <h2 className="section-title">Galería de Fotos</h2>
         </div>
 
-        <div className="gallery-grid">
+        <div className="gallery-grid-custom">
           {gallery.map((item, index) => (
             <motion.div 
               key={item.id}
-              className={`gallery-item item-${item.id}`}
+              className={`gallery-item ${index < 2 ? 'item-large' : 'item-small'}`}
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}

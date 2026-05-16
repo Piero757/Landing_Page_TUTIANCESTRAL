@@ -17,11 +17,11 @@ export default function About() {
           transition={{ duration: 0.8 }}
         >
           <div className="img-wrapper">
-             <img src={about.image} alt="Sobre nosotros" />
+             <img src={about.image} alt="Tuti Ancestral - Cultura y Tradición" />
           </div>
           <div className="experience-badge">
-            <span className="number">15+</span>
-            <span className="text">Años de Experiencia</span>
+            <span className="number">TUTI</span>
+            <span className="text">Corazón del Colca</span>
           </div>
         </motion.div>
 
@@ -32,17 +32,17 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <span className="section-subtitle">Descubre nuestra historia</span>
+          <span className="section-subtitle">Conoce nuestra historia</span>
           <h2 className="section-title">{about.title}</h2>
-          <p>{about.content}</p>
+          <p style={{ fontSize: '1.1rem', marginBottom: '30px' }}>{about.content}</p>
           <div className="features">
             <div className="feature">
-              <h3>Visión</h3>
-              <p>Ser el referente de hospitalidad y sabor en la región.</p>
+              <h3 style={{ color: 'var(--primary)', marginBottom: '10px' }}>Visión</h3>
+              <p>Ser el referente de turismo cultural vivencial, preservando la identidad de nuestra comunidad para el mundo.</p>
             </div>
             <div className="feature">
-              <h3>Misión</h3>
-              <p>Brindar experiencias memorables que superen expectativas.</p>
+              <h3 style={{ color: 'var(--primary)', marginBottom: '10px' }}>Misión</h3>
+              <p>Facilitar el encuentro entre viajeros y la cultura andina a través de experiencias humanas y respetuosas.</p>
             </div>
           </div>
         </motion.div>

@@ -7,7 +7,7 @@ export default function Hero() {
   const { hero } = content;
 
   return (
-    <section id="inicio" className="hero" style={{ backgroundImage: `url(${hero.image})` }}>
+    <section id="inicio" className="hero" style={{ backgroundImage: `url("${hero.backgroundImage}")` }}>
       <div className="hero-overlay"></div>
       <div className="hero-content container">
         <motion.div
@@ -15,9 +15,9 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <span className="hero-badge">Turismo & Gastronomía</span>
+          <span className="hero-badge">{hero.badge}</span>
           <h1>{hero.title}</h1>
-          <p>{hero.subtitle}</p>
+          <p>{hero.description}</p>
           <div className="hero-btns">
             <a href="#contacto" className="btn btn-primary">{hero.cta}</a>
             <a href="#nosotros" className="btn btn-outline">Conocer Más</a>

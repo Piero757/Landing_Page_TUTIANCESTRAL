@@ -1,48 +1,47 @@
 {
   "hero": {
-    "title": "Experiencia Inolvidable entre Lujo y Naturaleza",
-    "subtitle": "Descubre el equilibrio perfecto entre la comodidad de nuestro hotel y la exquisitez de nuestro restaurante.",
-    "cta": "Reserva Ahora",
-    "image": "/images/hero-bg.png"
+    "badge": "Turismo Vivencial y Cultural",
+    "title": "Vive una experiencia auténtica en el corazón del Valle del Colca",
+    "description": "Descubre la cultura, tradiciones y la calidez de la comunidad de Tuti en una experiencia humana y natural inolvidable.",
+    "cta": "Explorar Experiencias",
+    "backgroundImage": "/images/WhatsApp Image 2026-05-15 at 3.33.50 PM.jpeg"
   },
   "about": {
-    "title": "Quiénes Somos",
-    "content": "Somos un destino turístico comprometido con la excelencia. Con años de experiencia en hospitalidad, ofrecemos un refugio de paz y sabor para quienes buscan lo mejor del turismo local.",
-    "image": "/images/about.png"
+    "subtitle": "Nuestra Esencia",
+    "title": "Conectando con la Sabiduría de nuestros Ancestros",
+    "description": "Tuti Ancestral nace del deseo de compartir nuestra herencia cultural con el mundo. Somos una comunidad que mantiene vivas las tradiciones del Valle del Colca, ofreciendo un turismo que no solo muestra paisajes, sino que integra al visitante en nuestra vida diaria.",
+    "image": "/images/WhatsApp Image 2026-05-15 at 3.33.49 PM.jpeg",
+    "stats": [
+      { "label": "Comunidad", "value": "Tuti" },
+      { "label": "Altitud", "value": "3,840m" },
+      { "label": "Cultura", "value": "Viva" }
+    ]
   },
   "services": [
-    {
-      "id": 1,
-      "title": "Hospedaje de Lujo",
-      "description": "Habitaciones diseñadas para el descanso total con vistas espectaculares.",
-      "icon": "Bed"
-    },
-    {
-      "id": 2,
-      "title": "Gastronomía Local",
-      "description": "Platillos preparados con ingredientes frescos de la región por chefs expertos.",
-      "icon": "Utensils"
-    },
-    {
-      "id": 3,
-      "title": "Tours Guiados",
-      "description": "Explora los rincones más bellos de la zona con nuestros guías certificados.",
-      "icon": "Map"
-    }
+    { "id": 1, "title": "Turismo Vivencial", "description": "Sé parte de nuestra comunidad compartiendo las labores diarias.", "icon": "Users" },
+    { "id": 2, "title": "Gastronomía Local", "description": "Disfruta de platillos ancestrales preparados con ingredientes frescos.", "icon": "Utensils" },
+    { "id": 3, "title": "Caminatas y Naturaleza", "description": "Explora senderos milenarios y contempla la majestuosidad del Valle.", "icon": "Mountain" },
+    { "id": 4, "title": "Artesanía y Cultura", "description": "Aprende las técnicas de tejido heredadas de generación en generación.", "icon": "Palette" },
+    { "id": 5, "title": "Hospedaje Rural", "description": "Descansa en habitaciones tradicionales diseñadas para la paz.", "icon": "Home" },
+    { "id": 6, "title": "Actividades Comunitarias", "description": "Participa en las faenas que mantienen viva la identidad de Tuti.", "icon": "Heart" }
   ],
   "gallery": [
-    { "id": 1, "url": "/images/gallery-1.png", "alt": "Restaurante vista nocturna" },
-    { "id": 2, "url": "/images/gallery-2.png", "alt": "Habitación Suite" },
-    { "id": 3, "url": "/images/gallery-1.png", "alt": "Platillo especial" },
-    { "id": 4, "url": "/images/gallery-2.png", "alt": "Piscina" }
+    { "id": 1, "url": "/images/WhatsApp Image 2026-05-15 at 3.33.50 PM (1).jpeg", "alt": "Paisaje de Tuti" },
+    { "id": 2, "url": "/images/WhatsApp Image 2026-05-15 at 3.33.50 PM (2).jpeg", "alt": "Cultura Viva" },
+    { "id": 3, "url": "/images/WhatsApp Image 2026-05-15 at 3.33.50 PM (3).jpeg", "alt": "Experiencia Ancestral" },
+    { "id": 4, "url": "/images/WhatsApp Image 2026-05-15 at 3.33.50 PM (4).jpeg", "alt": "Arquitectura Tradicional" },
+    { "id": 5, "url": "/images/WhatsApp Image 2026-05-15 at 3.33.49 PM (1).jpeg", "alt": "Tradición Local" },
+    { "id": 6, "url": "/images/WhatsApp Image 2026-05-15 at 3.33.49 PM (2).jpeg", "alt": "Vida Comunitaria" },
+    { "id": 7, "url": "/images/WhatsApp Image 2026-05-15 at 3.33.49 PM.jpeg", "alt": "Esencia de Tuti" },
+    { "id": 8, "url": "/images/WhatsApp Image 2026-05-15 at 3.33.50 PM.jpeg", "alt": "Valle del Colca" }
   ],
   "clients": [
-    { "id": 1, "name": "Familia Rodriguez", "comment": "Una estancia maravillosa, la comida fue lo mejor.", "rating": 5 },
-    { "id": 2, "name": "Carlos M.", "comment": "Excelente atención y ubicación privilegiada.", "rating": 5 }
+    { "id": 1, "name": "Elena S.", "comment": "Una conexión real con la cultura. No es un tour, es una experiencia de vida.", "rating": 5 },
+    { "id": 2, "name": "Mark J.", "comment": "Tuti es un lugar mágico. La hospitalidad de la comunidad es incomparable.", "rating": 5 }
   ],
   "contact": {
-    "email": "contacto@turismolujo.com",
     "phone": "+51 987 654 321",
-    "address": "Av. Principal 123, Valle Sagrado, Perú"
+    "email": "contacto@tutiancestral.com",
+    "address": "Distrito de Tuti, Valle del Colca, Arequipa - Perú"
   }
 }

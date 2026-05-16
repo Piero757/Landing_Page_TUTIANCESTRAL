@@ -8,7 +8,7 @@ export default function Clients() {
   const { clients } = content;
 
   return (
-    <section id="clientes" className="clients" style={{ padding: '120px 5%' }}>
+    <section id="clientes" className="clients">
       <div className="container">
         <div className="section-header" style={{ textAlign: 'center', marginBottom: '60px' }}>
           <span className="section-subtitle">Testimonios</span>
@@ -19,16 +19,16 @@ export default function Clients() {
           {clients.map((client, index) => (
             <motion.div 
               key={client.id}
-              className="testimonial-card glass"
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
+              className="testimonial-card"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.2, duration: 0.6 }}
             >
-              <div className="quote-icon" style={{ position: 'absolute', top: '-20px', left: '50%', transform: 'translateX(-50%)', background: 'var(--background)', padding: '10px', borderRadius: '50%', border: '1px solid var(--glass-border)' }}>
-                <Quote size={40} fill="var(--primary)" color="var(--primary)" />
+              <div className="quote-icon" style={{ marginBottom: '20px', display: 'flex', justifyContent: 'center', color: 'var(--primary)' }}>
+                <Quote size={32} fill="var(--primary)" />
               </div>
-              <p className="comment" style={{ fontSize: '1.1rem', fontStyle: 'italic', color: 'rgba(255, 255, 255, 0.9)', marginBottom: '25px', lineHeight: '1.8' }}>
+              <p className="comment" style={{ fontSize: '1.1rem', fontStyle: 'italic', color: 'rgba(255, 255, 255, 0.9)', marginBottom: '25px' }}>
                 "{client.comment}"
               </p>
               <div className="stars" style={{ display: 'flex', justifyContent: 'center', gap: '5px', marginBottom: '20px' }}>
@@ -36,8 +36,8 @@ export default function Clients() {
                   <Star key={i} size={16} fill="var(--primary)" color="var(--primary)" />
                 ))}
               </div>
-              <h4 className="name" style={{ fontSize: '1.2rem', color: 'white', marginBottom: '5px' }}>{client.name}</h4>
-              <span className="role" style={{ fontSize: '0.8rem', color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '1px' }}>
+              <h4 className="name" style={{ color: 'white', marginBottom: '5px' }}>{client.name}</h4>
+              <span className="role" style={{ fontSize: '0.8rem', color: 'var(--primary)', textTransform: 'uppercase' }}>
                 Cliente Verificado
               </span>
             </motion.div>

@@ -50,7 +50,7 @@ export default function Contact() {
           </motion.div>
 
           <motion.div 
-            className="contact-form glass"
+            className="contact-form"
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}

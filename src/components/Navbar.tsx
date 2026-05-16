@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -18,18 +19,25 @@ export default function Navbar() {
 
   const navLinks = [
     { name: 'Inicio', href: '#inicio' },
-    { name: 'Quiénes Somos', href: '#nosotros' },
-    { name: 'Servicios', href: '#servicios' },
+    { name: 'Sobre Tuti', href: '#nosotros' },
+    { name: 'Experiencias', href: '#servicios' },
     { name: 'Galería', href: '#galeria' },
-    { name: 'Clientes', href: '#clientes' },
+    { name: 'Opiniones', href: '#clientes' },
     { name: 'Contacto', href: '#contacto' },
   ];
 
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
-        <Link href="/" className="logo">
-          TURISM<span>.</span>
+        <Link href="/" className="logo" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <Image 
+            src="/images/logo.jpeg" 
+            alt="Tuti Ancestral Logo" 
+            width={50} 
+            height={50} 
+            style={{ borderRadius: '5px' }}
+          />
+          <span style={{ fontWeight: '700', fontSize: '1.4rem' }}>TUTI<span style={{ color: 'var(--primary)' }}>ANCESTRAL</span></span>
         </Link>
 
         <div className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
